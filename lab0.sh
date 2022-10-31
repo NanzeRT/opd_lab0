@@ -1,5 +1,5 @@
 #! /usr/bin/bash
-shopt -s globstar # hide dat later
+
 echo "Starting..."
 
 mkdir lab0
