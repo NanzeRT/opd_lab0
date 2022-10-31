@@ -3,14 +3,14 @@
 echo "Starting..."
 
 mkdir lab0
-cd lab0 || exit
+cd lab0
 
 echo "Creating files n' dirs..."
 
 mkdir arbok3
-cd arbok3 || exit
+cd arbok3
 mkdir dwebble
-cd dwebble || exit
+cd dwebble
 touch volcarona
 touch larvitar
 touch bellossom
@@ -26,12 +26,12 @@ cd ..
 
 touch exploud3
 mkdir gligar8
-cd gligar8 || exit
+cd gligar8
 mkdir magby
-cd magby || exit
+cd magby
 touch machamp
 mkdir wingull
-cd wingull || exit
+cd wingull
 
 touch omanyte
 touch croagunk
@@ -39,7 +39,7 @@ touch remoraid
 cd ..
 
 mkdir vulpix
-cd vulpix || exit
+cd vulpix
 
 mkdir eelektrik
 touch buneary
@@ -53,23 +53,23 @@ cd ..
 
 touch grotle
 mkdir munna
-cd munna || exit
+cd munna
 
 touch glaceon
 mkdir slaking
-cd slaking || exit
+cd slaking
 
 mkdir togekiss
 touch burmy
 cd ../../..
 
 mkdir honchkrow9
-cd honchkrow9 || exit
+cd honchkrow9
 
 mkdir fraxure
-cd fraxure || exit
+cd fraxure
 mkdir staravia
-cd staravia || exit
+cd staravia
 
 touch houndoom
 touch dragonite
@@ -292,7 +292,7 @@ ls -trlud $(ls -p1d ** | grep "y$") | head -n 3
 echo "- here it goes 17"
 cat $(ls -p1d ** | grep 'e$') 2>/tmp/\ \ \ \ you
 echo "- here it goes 18"
-ls -p1d arbok3/** | grep -v '/$' 2> /tmp/\ \ \ \ \ up
+ls -p1d arbok3/** | grep -v '/$' 2>/tmp/\ \ \ \ \ up
 echo "- here it goes... uh wait"
 
 echo "Cleaning some of this mess..."
